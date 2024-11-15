@@ -1,25 +1,23 @@
-![image](https://github.com/TessierV/holbertonschool-web_back_end/assets/113889290/bf912e97-ad57-44b5-9880-5dc30974ab0f)
+## Resources
+### Read or watch:
 
-# Overview: 
-This project focuses on implementing internationalization (i18n) features in a Flask web application. The primary objectives include parametrizing Flask templates to display content in different languages, inferring the correct locale based on various factors (URL parameters, user settings, or request headers), and localizing timestamps.
+- [Flask-Babel](https://python-babel.github.io/flask-babel/)
+- [Flask i18n tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n)
+- [pytz](https://pypi.org/project/pytz/)
 
-<br>
-<img align="left" width="2%" alt="Github" src="https://github.com/TessierV/TessierV/assets/113889290/75f76703-549a-45ed-8091-9fdc76ed72eb" /><p align="left">Mandatory: 8 tasks</p>
-<img align="left" width="2%" alt="Github" src="https://github.com/TessierV/TessierV/assets/113889290/75f76703-549a-45ed-8091-9fdc76ed72eb" /><p align="left">Advanced: 1 task</p>
-<img align="left" width="2%" alt="Github" src="https://github.com/TessierV/TessierV/assets/113889290/f68c3441-c4fe-4af2-90db-a0eb69922241" />
-<p align="left">No group</p>
-
-<br>
-<h1  align="left">Mandatories:</h1>
-<p>0. Basic Flask app</p>   
-<p>1. Basic Babel setup</p>      
-<p>2. Get locale from request</p>      
-<p>3. Parametrize templates</p>      
-<p>4. Force locale with URL parameter</p>      
-<p>5. Mock logging in</p>      
-<p>6. Use user locale</p>      
-<p>7. Infer appropriate time zone</p>      
-
-<br> 
-<br/><hr>
-<p align="right">Holberton TOULOUSE</p>
+## Learning Objectives
+- Learn how to parametrize Flask templates to display different languages
+ -Learn how to infer the correct locale based on URL parameters, user settings or request headers
+- Learn how to localize timestamps
+Requirements
+- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.9)
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project, is mandatory
+Your code should use the pycodestyle style (version 2.5)
+- The first line of all your files should be exactly #!/usr/bin/env python3
+- All your *.py files should be executable
+- All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+- All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+- All your functions and methods should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+- A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+- All your functions and coroutines must be type-annotated.
